@@ -1,0 +1,49 @@
+## Setup user and Ssh Key
+
+
+
+#### Setup user credential
+
+```bash
+git config --local --add user.name "Davide Gulli"
+git config --local --add user.email "davide.gulli@gmail.com"
+git config --local --add credential.username "davide.gulli@gmail.com"
+```
+
+
+
+Per modificare l'author del un commit appena eseguito:
+
+```bash
+git commit --amend --reset-author
+```
+
+
+
+#### Setup ssh key
+
+Impostando la chiave ssh non sarà più necessario inserire la password per eseguire le azioni che richiedono l'autenticaziane da parte dell'utente.
+
+
+
+##### Generate ssh keys
+
+```bash
+ssh-keygen -t rsa -b 4096 -C "davide.gulli@gmail.com" -f ~/.ssh/rsa_dg_gmail
+```
+
+
+
+Per evitare di dover inserire la passphrase della ssh key ogni qual volta venga utilizzata, è possibile configurare il ssh agent.
+
+```bash
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/rsa_dg_gmail
+```
+
+
+
+
+
+
+
