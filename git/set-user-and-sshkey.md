@@ -43,6 +43,20 @@ ssh-add ~/.ssh/rsa_dg_gmail
 
 
 
+##### Github:
+
+https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+
+
+
+##### Gitlab:
+
+https://docs.gitlab.com/ce/ssh/README.html
+
+
+
+
+
 
 
 
