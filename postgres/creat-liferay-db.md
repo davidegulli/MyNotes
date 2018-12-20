@@ -14,15 +14,25 @@ Impstazione password utente
 alter user [username] with encriypted password '[password]'
 ```
 
+Oppure:
+
+```bash
+postgres=# create user myuser with encrypted password 'mypass';
+```
+
+
+
+
+
 Creazione di un nuovo database
 
-```sql
-postgres=> CREATE DATABASE [database] ENCODING 'UTF8';
+```bash
+postgres=# CREATE DATABASE [database] ENCODING 'UTF8';
 ```
 
 Grant dei permessi dell'utente
 
-```sql
-postgres=> GRANT ALL PRIVILEGES ON DATABASE [database] TO [username];	
+```bash
+postgres=# GRANT ALL PRIVILEGES ON DATABASE [database] TO [username];	
 ```
 
