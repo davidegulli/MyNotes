@@ -14,4 +14,4 @@ ngrok http -bind-tls=true -host-header=rewrite 8080
 
 Nell'endpoint della skill alexa deve essere selezionata la seguente option:
 
-![1545387451052](../../../../home/davide/1545387451052.png)
+![1545387451052](./1545387451052.png)
