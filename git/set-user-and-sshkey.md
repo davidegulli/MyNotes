@@ -12,7 +12,7 @@ git config --local --add credential.username "davide.gulli@gmail.com"
 
 
 
-Per modificare l'author del un commit appena eseguito:
+Per modificare l'author del un commit appena esegui
 
 ```bash
 git commit --amend --reset-author
@@ -52,6 +52,21 @@ https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 ##### Gitlab:
 
 https://docs.gitlab.com/ce/ssh/README.html
+
+
+
+##### Store Credential
+
+``` bash
+git config credential.helper store
+git push http://example.com/repo.git
+Username: <type your username>
+Password: <type your password>
+```
+
+https://stackoverflow.com/questions/11403407/git-asks-for-username-every-time-i-push
+
+
 
 
 
