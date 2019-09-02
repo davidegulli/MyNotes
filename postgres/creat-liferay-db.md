@@ -1,4 +1,4 @@
-## ioCreare un nuovo database postgresql per liferay
+## Creare un nuovo database postgresql per liferay
 
 
 
